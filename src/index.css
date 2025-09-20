@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-900 text-white font-sans;
+  background-color: #0a0a0a;
+  background-image: radial-gradient(circle at 1px 1px, rgba(255,255,255,0.1) 1px, transparent 0);
+  background-size: 2rem 2rem;
+}
+
+.glass-card {
+  @apply bg-gradient-glass backdrop-filter backdrop-blur border border-gray-700 rounded-2xl shadow-glass;
+}
+
+.brand-gradient-text {
+  @apply bg-gradient-to-r from-brand-aqua via-brand-purple to-brand-pink text-transparent bg-clip-text;
+}
